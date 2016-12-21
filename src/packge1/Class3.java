@@ -1,7 +1,7 @@
 package packge1;
 
 import java.util.List;
-import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,7 +17,7 @@ public class Class3 {
 		   WebDriver driver = new ChromeDriver();         
 				 
 		   driver.get("http://cashforgold.to");
-
+/*
 		   driver.manage().window().maximize();
 		   // to maximize window size
 		   
@@ -95,17 +95,28 @@ public class Class3 {
 			   System.out.println(driver.getTitle() + "Loaded");
 		   }
 		   driver.navigate().back();
-		   
+		   */
 		   
 		   //checks if the elements are enabled  on the webpage
-		   WebElement element = driver.findElement(By.cssSelector("*"));
-		   boolean status = element.isEnabled();
+		   List<WebElement> element = (List<WebElement>) driver.findElement(By.tagName("a"));
+		   
+		  /* boolean status = element.isEnabled();
 		   if(status) {
 			   
-			   ("Very nice!");
+			   System.out.println(status);
 			   
 		   }
+		   */
 		   
+		   
+
+
+		   WebElement element1 = driver.findElement(By.id("menu-item-2891"));
+		   org.openqa.selenium.Dimension dimensions = element1.getSize();
+		   System.out.println("Height :" + dimensions.height + " Width : "+ dimensions.width);
+
+
+
 		   
 
 		   /*driver.findElement(By.id("Email")).sendKeys("hello.world@gmail.com");
