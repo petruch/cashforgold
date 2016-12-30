@@ -17,7 +17,7 @@ public class Class3 {
 		   WebDriver driver = new ChromeDriver();         
 				 
 		   driver.get("http://cashforgold.to");
-/*
+
 		   driver.manage().window().maximize();
 		   // to maximize window size
 		   
@@ -95,26 +95,11 @@ public class Class3 {
 			   System.out.println(driver.getTitle() + "Loaded");
 		   }
 		   driver.navigate().back();
-		   */
 		   
-		   //checks if the elements are enabled  on the webpage
-		   List<WebElement> element = (List<WebElement>) driver.findElement(By.tagName("a"));
-		   
-		  /* boolean status = element.isEnabled();
-		   if(status) {
-			   
-			   System.out.println(status);
-			   
-		   }
-		   */
-		   
-		   
-
-
 		   WebElement element1 = driver.findElement(By.id("menu-item-2891"));
 		   org.openqa.selenium.Dimension dimensions = element1.getSize();
 		   System.out.println("Height :" + dimensions.height + " Width : "+ dimensions.width);
-
+		   
 
 
 		   
