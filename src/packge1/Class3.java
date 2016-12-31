@@ -27,11 +27,7 @@ public class Class3 {
 				  else {
 					  System.out.println("wrong Url" + driver.getTitle());			  
 				  }
-		   // button testing home page
-		 
-		   // menu items
-		   //driver.findElement(By.className("mobile_menu_control icon-menu-outline")).click();
-		   //TimeUnit.SECONDS.sleep(2);
+		   
 		   
 		   // home menu items check if the link works
 		   // what we buy 
