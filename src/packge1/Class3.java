@@ -22,7 +22,7 @@ public class Class3 {
 		   driver.manage().window().maximize();
 		   // to maximize window size
 		   
-		   if (driver.getTitle().contains("Cash for gold Toronto – Toronto jewellery buyers")){
+		   if (driver.getTitle().contains("Cash for gold Toronto â€“ Toronto jewellery buyers")){
 					  System.out.println("Welcome To Cash");
 				  }
 				  else {
@@ -31,14 +31,14 @@ public class Class3 {
 		   // button testing home page
 		 
 		   // menu items
-		   //driver.findElement(By.className("mobile_menu_control icon-menu-outline")).click();
-		   //TimeUnit.SECONDS.sleep(2);
+		   driver.findElement(By.className("mobile_menu_control icon-menu-outline")).click();
+		   TimeUnit.SECONDS.sleep(2);
 		   
 		   // home menu items check if the link works
 		   // what we buy 
 		   driver.findElement(By.id("menu-item-2889")).click();
-		   if (driver.getTitle().contains("What we buy at Cashforgold.TO – Cash for gold Toronto")){
-			   System.out.println("What we buy at Cashforgold.TO – Cash for gold Toronto " + "Loaded");
+		   if (driver.getTitle().contains("What we buy at Cashforgold.TO â€“ Cash for gold Toronto")){
+			   System.out.println("What we buy at Cashforgold.TO â€“ Cash for gold Toronto " + "Loaded");
 		   }
 		   else {
 			   System.out.println(driver.getTitle() + "Loaded");
@@ -47,8 +47,8 @@ public class Class3 {
 		   driver.navigate().back();
 		   // what we pay
 		   driver.findElement(By.id("menu-item-2890")).click();
-		   if (driver.getTitle().contains("What we pay for gold in Toronto – Cash for gold Toronto")){
-			   System.out.println("What we pay for gold in Toronto – Cash for gold Toronto " + "Loaded");
+		   if (driver.getTitle().contains("What we pay for gold in Toronto â€“ Cash for gold Toronto")){
+			   System.out.println("What we pay for gold in Toronto â€“ Cash for gold Toronto " + "Loaded");
 		   }
 		   else {
 			   System.out.println(driver.getTitle() + "Loaded");
@@ -57,8 +57,8 @@ public class Class3 {
 		   
 		   // make money button
 		   driver.findElement(By.id("menu-item-2892")).click();
-		   if (driver.getTitle().contains("Gold party in Toronto – Cash for gold Toronto")){
-			   System.out.println("Gold party in Toronto – Cash for gold Toronto " + "Loaded");
+		   if (driver.getTitle().contains("Gold party in Toronto â€“ Cash for gold Toronto")){
+			   System.out.println("Gold party in Toronto â€“ Cash for gold Toronto " + "Loaded");
 		   }
 		   else {
 			   System.out.println(driver.getTitle() + "Loaded");
@@ -67,8 +67,8 @@ public class Class3 {
 		   
 		   // gold purity button
 		   driver.findElement(By.id("menu-item-2888")).click();
-		   if (driver.getTitle().contains("Understanding Gold Karats – Purity of Gold – Cash for gold Toronto")){
-			   System.out.println("Understanding Gold Karats – Purity of Gold – Cash for gold Toronto " + "Loaded");
+		   if (driver.getTitle().contains("Understanding Gold Karats â€“ Purity of Gold â€“ Cash for gold Toronto")){
+			   System.out.println("Understanding Gold Karats â€“ Purity of Gold â€“ Cash for gold Toronto " + "Loaded");
 		   }
 		   else {
 			   System.out.println(driver.getTitle() + "Loaded");
@@ -79,8 +79,8 @@ public class Class3 {
 		   
 		// blog button
 		   driver.findElement(By.id("menu-item-2893")).click();
-		   if (driver.getTitle().contains("Cashforgold.TO Blog – Cash for gold Toronto")){
-			   System.out.println("Cashforgold.TO Blog – Cash for gold Toronto " + "Loaded");
+		   if (driver.getTitle().contains("Cashforgold.TO Blog â€“ Cash for gold Toronto")){
+			   System.out.println("Cashforgold.TO Blog â€“ Cash for gold Toronto " + "Loaded");
 		   }
 		   else {
 			   System.out.println(driver.getTitle() + "Loaded");
@@ -89,8 +89,8 @@ public class Class3 {
 		   
 		// About us button
 		   driver.findElement(By.id("menu-item-2891")).click();
-		   if (driver.getTitle().contains("About Cashforgold.TO – Cash for gold Toronto")){
-			   System.out.println("About Cashforgold.TO – Cash for gold Toronto " + "Loaded");
+		   if (driver.getTitle().contains("About Cashforgold.TO â€“ Cash for gold Toronto")){
+			   System.out.println("About Cashforgold.TO â€“ Cash for gold Toronto " + "Loaded");
 		   }
 		   else {
 			   System.out.println(driver.getTitle() + "Loaded");
