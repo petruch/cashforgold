@@ -104,7 +104,7 @@ public class Class3 {
 
 		   
 
-		   /*driver.findElement(By.id("Email")).sendKeys("hello.world@gmail.com");
+		   driver.findElement(By.id("Email")).sendKeys("hello.world@gmail.com");
 		   			  		  
 		   driver.findElement(By.id("next")).click();
 		   
@@ -144,7 +144,7 @@ public class Class3 {
 		   
 		   System.out.println("Title of the page is : " + title);
 		   System.out.println("Length of the title is : "+ titleLength);
-		   */
+		   
 	
 		  		   
 		   driver.close();
