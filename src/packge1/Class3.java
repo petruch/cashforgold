@@ -20,7 +20,7 @@ public class Class3 {
 		   driver.get("http://cashforgold.to");
 
 		   driver.manage().window().maximize();
-		   // to maximize window size
+		   // to maximize window
 		   
 		   if (driver.getTitle().contains("Cash for gold Toronto – Toronto jewellery buyers")){
 					  System.out.println("Welcome To Cash");
